@@ -2,7 +2,7 @@
 ;#Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#Include JSON.ahk
+#Include JSON.ahk ; using Cocobelgica's JSON lib - https://github.com/cocobelgica/AutoHotkey-JSON
 
 ;-----------------------------------------------------------------------------------
 ; 				Default Variables
